@@ -11,7 +11,7 @@
 	"license": "Apache-2.0",
 	"repository": {
 		"type": "extension-store",
-		"url": "https://github.com/zachMelody/better-pcb-connected-polyline-deleter"
+		"url": "https://github.com/zachMelody/better-pcb-polyline-deleter"
 	},
 	"categories": "Other",
 	"keywords": [
