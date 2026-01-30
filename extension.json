@@ -1,0 +1,69 @@
+{
+	"name": "better-pcb-connected-polyline-deleter",
+	"uuid": "334b2c43c01e4fa384558572e19aecd5",
+	"displayName": "更好的PCB元件导线删除器",
+	"description": "轻松删除与选中元件连接的完整导线走线，可以多选部分导线而不是删除全部连接导线，可选删除过孔，提升 PCB 设计效率。",
+	"version": "1.0.0",
+	"publisher": "",
+	"engines": {
+		"eda": "^3.0.0"
+	},
+	"license": "Apache-2.0",
+	"repository": {
+		"type": "extension-store",
+		"url": "https://github.com/zachMelody/better-pcb-connected-polyline-deleter"
+	},
+	"categories": "Other",
+	"keywords": [
+		"polyline",
+		"delete",
+		"pcb"
+	],
+	"images": {
+		"logo": "./images/logo.png"
+	},
+	"homepage": "",
+	"bugs": "",
+	"activationEvents": {},
+	"entry": "./dist/index",
+	"dependentExtensions": {},
+	"headerMenus": {
+		"home": [
+			{
+				"id": "PcbConnectedPolylineDeleter",
+				"title": "导线删除器",
+				"menuItems": [
+					{
+						"id": "About",
+						"title": "关于",
+						"registerFn": "about"
+					},
+					{
+						"id": "DeleteConnectedTraces",
+						"title": "删除连接导线",
+						"registerFn": "deleteConnectedTracesForSelected"
+					}
+				]
+			}
+		],
+		"pcb": [
+			{
+				"id": "PcbConnectedPolylineDeleter",
+				"title": "导线删除器",
+				"menuItems": [
+					{
+						"id": "About",
+						"title": "关于",
+						"registerFn": "about"
+					},
+					{
+						"id": "DeleteConnectedTraces",
+						"title": "删除连接导线",
+						"registerFn": "deleteConnectedTracesForSelected"
+					}
+				]
+			}
+		]
+
+	}
+}
